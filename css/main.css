@@ -288,7 +288,7 @@ a:hover, a:focus {
    Main styles
    ========================================================================== */
 header {
-  background: url(../img/Background.png) no-repeat center center;
+  /*background: url(../img/Background.png) no-repeat center center;*/
   width: 100%;
   padding: 20px 10px 60px 10px;
   height: 100vh;
@@ -299,12 +299,18 @@ header {
   -o-background-size: cover;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 420px) {
   header{
-    background: url(../img/background-mobile.png) no-repeat center center;
+    background: url(../img/mobile-back.png) no-repeat center center;
   }
-
 }
+
+@media screen and (min-width: 750px) {
+  header{
+    background: url(../img/Background.png) no-repeat center center;
+  }
+}
+
 
 .header-info {
   position: absolute;
