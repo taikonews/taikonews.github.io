@@ -299,6 +299,8 @@ header {
   -o-background-size: cover;
 }
 
+/* Fix for mobile image swap */
+
 @media screen and (max-width: 420px) {
   header{
     background: url(../img/mobile-back.png) no-repeat center center;
