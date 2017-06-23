@@ -299,6 +299,13 @@ header {
   -o-background-size: cover;
 }
 
+@media screen and (max-width: 400px) {
+  header{
+    background: url(../img/background-mobile.png) no-repeat center center;
+  }
+
+}
+
 .header-info {
   position: absolute;
   bottom: 0;
@@ -406,7 +413,7 @@ hr.line {
 
 .iphone {
     position: relative;
-    height: 300px;
+    height: 400px;
 }
 
 .iphone img {
