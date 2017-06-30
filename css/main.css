@@ -31,7 +31,8 @@ h2 {
   font-size: 40px;
   line-height: 40px;
   etter-spacing: -0.5px;
-  color: #ffffff;
+  color: #f4a460;
+  /*color: black;*/
   font-weight: 700;
 }
 
@@ -46,7 +47,8 @@ h3 {
 .lead {
   font-size: 21px;
   line-height: 26px;
-  color: #ffffff;
+  /*color: #ffffff;*/
+  color: #ffd700;  
   font-weight: 400;
 }
 
@@ -391,7 +393,7 @@ header {
 
 
 #be-the-first {
-  background: url(../img/be-the-first-bg.jpg) #231f20 no-repeat center center fixed;
+  background: url(../img/repVSdem.jpg) #231f20 no-repeat center center fixed;
   min-height: 300px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
