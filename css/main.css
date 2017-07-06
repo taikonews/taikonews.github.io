@@ -48,7 +48,7 @@ h3 {
   font-size: 21px;
   line-height: 26px;
   /*color: #ffffff;*/
-  color: #ffd700;  
+  color: #ffd700;
   font-weight: 400;
 }
 
@@ -293,9 +293,9 @@ header {
   /*background: url(../img/Background.png) no-repeat center center;*/
   width: 100%;
   padding: 20px 10px 60px 10px;
-  height: 100vh;
   overflow: hidden;
   background-size: cover;
+  margin: 0px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -306,12 +306,15 @@ header {
 @media screen and (max-width: 420px) {
   header{
     background: url(../img/mobile-back.png) no-repeat center center;
+    height: 100vh;
   }
 }
 
 @media screen and (min-width: 750px) {
   header{
     background: url(../img/Background.png) no-repeat center center;
+    height: 100vh;
+    background-size: cover;
   }
 }
 
@@ -393,7 +396,10 @@ header {
 
 
 #be-the-first {
-  background: url(../img/repVSdem.jpg) #231f20 no-repeat center center fixed;
+  /*background: url(../img/repVSdem.jpg) #231f20 no-repeat center center fixed;*/
+  /*background-color: Gray;*/
+  background: url(../img/taikoColoursBig.png);
+  background-repeat: repeat-y;
   min-height: 300px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
