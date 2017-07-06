@@ -306,8 +306,8 @@ header {
 @media screen and (max-width: 420px) {
   header{
     background: url(../img/mobile-back.png) no-repeat center center;
-    /*height: 100vh;*/
-    background-size: cover;
+    height: 80vh;
+    /*background-size: 100%;*/
   }
 }
 
