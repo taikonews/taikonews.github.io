@@ -305,9 +305,9 @@ header {
 
 @media screen and (max-width: 420px) {
   header{
-    background: url(../img/background-medmobile.png) no-repeat center center;
+    /*background: url(../img/background-medmobile.png) no-repeat center center;
     display: block;
-    background-attachment: scroll;
+    background-attachment: scroll;*/
     /*position: fixed;
     left: 0;
     top: 0;
