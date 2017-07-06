@@ -31,6 +31,15 @@ h2 {
   font-size: 40px;
   line-height: 40px;
   etter-spacing: -0.5px;
+  color: black;
+  /*color: black;*/
+  font-weight: 700;
+}
+
+h2.community {
+  font-size: 40px;
+  line-height: 40px;
+  etter-spacing: -0.5px;
   color: #f4a460;
   /*color: black;*/
   font-weight: 700;
@@ -487,6 +496,28 @@ footer {
 }
 
 
+
+/*---------------Community Section-------------------*/
+
+.community-block {
+  /*background-color: green;*/
+  text-align: left;
+  display: inline-block;
+}
+
+.community-block-left img{
+  float: right;
+  display: inline;
+}
+
+
+.community-block-left p{
+  /*float: left;*/
+}
+
+/*.community-block-right img{
+  float: right;
+}*/
 
 /*---------------Pricing Tables-------------------*/
 
