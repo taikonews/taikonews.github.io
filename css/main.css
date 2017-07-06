@@ -309,13 +309,8 @@ header {
     background: url(../img/background-medmobile.png) no-repeat center center;
     display: block;
     background-attachment: scroll;
-    /*position: fixed;
-    left: 0;
-    top: 0;*/
     width: 100vw;
     height: 100vh;
-    /*max-width: 100%;
-    height: auto;*/
     background-size: cover;
   }
 }
