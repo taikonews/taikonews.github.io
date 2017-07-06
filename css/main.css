@@ -305,7 +305,7 @@ header {
 
 @media screen and (max-width: 420px) {
   header{
-    background: url(../img/mobile-back.png) no-repeat center center;
+    background: url(../img/background-medmobile.png) no-repeat center center;
     /*height: 80vh;*/
     max-width: 100%;
     height: auto;
