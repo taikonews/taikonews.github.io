@@ -392,7 +392,7 @@ header {
 }
 
 .pad-xl {
-	padding: 200px 0px;
+	padding: 200px 0px 100px 0px;
 }
 
 .pad-lg {
@@ -458,6 +458,8 @@ hr.line {
 
 #invite {
   background: #f2f2f2;
+  margin-top: 100px;
+  padding-top: 50px;
 }
 
 .fa-envelope-o {
@@ -508,6 +510,7 @@ footer {
 .community-block-left img{
   float: right;
   display: inline;
+  margin-top: 40px;
 }
 
 
@@ -639,13 +642,13 @@ footer {
 .form-control {
     background-color: #FFFFFF;
     background-image: none;
-    border: 0px solid transparent;
+    border: 1px solid black;
     border-radius: 4px;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
     color: #929496;
     display: block;
     font-size: 15px;
-    height: 60px;
+    height: 34px;
     line-height: 1.42857;
     padding: 6px 12px;
     transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
@@ -669,7 +672,9 @@ footer {
     opacity: 1;
 }
 
-
+#mc_embed_signup_scroll {
+  padding: 30px 0px;
+}
 
 
 /* ==========================================================================
