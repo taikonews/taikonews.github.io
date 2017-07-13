@@ -36,6 +36,10 @@ h2 {
   font-weight: 700;
 }
 
+h2.newsHeader {
+  color: #f4a460;
+}
+
 h2.community {
   font-size: 40px;
   line-height: 40px;
@@ -56,15 +60,15 @@ h3 {
 .lead {
   font-size: 21px;
   line-height: 26px;
-  /*color: #ffffff;*/
-  color: #ffd700;
+  color: #ffffff;
+  /*color: #ffd700;*/
   font-weight: 400;
 }
 
 p {
   font-size: 17px;
   line-height: 22px;
-  color: #929496;
+  color: black;
   font-weight: 400;
 }
 
